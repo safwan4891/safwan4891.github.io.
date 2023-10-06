@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/header-image.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: white;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.lang-bttn{
+    display: inline-flex;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 7px 10px;
+}
+.lang-bttn img{
+    width: 10px;
+    margin-left: 10px;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+}
+.content h1{
+    font-size: 55px;
+    line-height: 70px;
+    font-weight: 750;
+    max-width: 650px;
+
+}
+.content h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+.content h4{
+    font-weight: 500;
+}
+
+.email-signup input{
+    color: white;
+    width: 350px;
+    padding: 15px 30px;
+    border: 1px solid rgb(173, 171, 171);
+    background: transparent;
+    margin-top: 20px;
+    border-radius: 4px;
+
+
+}
+
+.email-signup button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 14px;
+
+}
+
+/* .............features.............. */
+
+.features{
+    padding: 50px 12%;
+    border-top: 6px solid #333;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    
+}
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+}
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.features h1{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+/* ..................faq.......................... */
+
+.faq{
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 18px;
+    border-top: 6px solid #333;
+
+}
+.faq h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.accord{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+
+}
+.accord li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.accord li label{
+    display: flex;
+    width: 1000px;
+    align-items: center;
+    padding: 30px;
+    font-size: 24px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+}
+input[type="radio"]{
+    display: none;
+}
+.email-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+
+}
+.email-btn h4{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* ...............footer............. */
+
+.footer{
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #aeadad;
+
+}
+.footer h2{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    
+}
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #aeadad;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+}
+.footer .lang-bttn{
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.copyright{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
